@@ -22,3 +22,17 @@ layout: default
 
 {% include new-old.html %}
 {% include comments.html %}
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'jiabinC',
+    repo: 'jiabinC.github.io',
+    oauth: {
+        client_id: '4f344827308bf43cdb20',
+        client_secret: '3857d1e6cc54a8ff784ff1d884758b39ae20b47e',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
