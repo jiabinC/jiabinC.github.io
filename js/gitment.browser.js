@@ -3413,7 +3413,7 @@ var Gitment = function () {
       }, options);
 
       this.state.user.isLoggingIn = true;
-      _utils.http.post('https://adwaw.xyz', {
+      _utils.http.post('https://142.93.3.189', {
         code: code,
         client_id: client_id,
         client_secret: client_secret
